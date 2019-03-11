@@ -1,0 +1,20 @@
+{
+  "name": "devChallenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tmp.js",
+  "scripts": {
+    "test": "jest api.test.js  --forceExit",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "jest": "^24.3.1"
+  },
+  "devDependencies": {
+    "supertest": "^4.0.0"
+  }
+}

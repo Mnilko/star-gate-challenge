@@ -1,0 +1,8 @@
+version: '2'
+services:
+  star-gates:
+    container_name: star-gates
+    command:  bash -l -c "npm start"
+    build: .
+    ports:
+      - 5000:5000
